@@ -69,3 +69,7 @@ def test_cancel_baby_club_membership():
     finally:
         # Step 7: Close the browser
         driver.quit()
+
+
+if __name__ == "__main__":
+    test_cancel_baby_club_membership()
