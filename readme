@@ -21,7 +21,7 @@ Before running the test, ensure that you have the following installed:
 
 Running the Test:
 
-    Save the test script as test_cancel_baby_club_membership.py.
+    Save the test script as baby_club_rohlicek.py.
     Open a command prompt and run the script:
 
     python baby_club_rohlicek.py
