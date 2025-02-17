@@ -1,29 +1,32 @@
-Automate Test Case for Baby club Rohlíček
+# Automate Test Case for Baby Club Rohlíček
 
-Description:
+## Description
 
-This automated test performs the cancellation of a Rohlíček Baby Club membership on the rohlik.cz website.
-The test includes the following steps:
+This automated test performs the cancellation of a Rohlíček Baby Club membership on the [rohlik.cz](https://www.rohlik.cz) website. The test includes the following steps:
 
-    Logging into the website
-    Navigating to the Rohlíček profile page
-    Clicking the "Zrušit členství v dětském klubu Rohlíček" button
-    Confirming the cancellation
-    Verifying that the membership is successfully removed
+### Test Steps:
 
-Requirements:
+1. Logging into the website  
+2. Navigating to the Rohlíček profile page  
+3. Clicking the **"Zrušit členství v dětském klubu Rohlíček"** button  
+4. Confirming the cancellation  
+5. Verifying that the membership is successfully removed  
+
+## Requirements
 
 Before running the test, ensure that you have the following installed:
 
-    Python 3.9 or higher
-    Selenium (pip install selenium)
-    Geckodriver (required for Firefox WebDriver)
+- **Python 3.9 or higher**
+- **Selenium** (Install using: `pip install selenium`)
+- **Geckodriver** (Required for Firefox WebDriver)
 
-Running the Test:
+## Running the Test
 
-    Save the test script as baby_club_rohlicek.py.
-    Open a command prompt and run the script:
+To execute the test, follow these steps:
 
-    python baby_club_rohlicek.py
+1. Save the test script as `baby_club_rohlicek.py`.
+2. Open a command prompt and run the script:
 
-    The Firefox browser will open automatically, execute the test, and close upon completion.
+   python baby_club_rohlicek.py
+
+The Firefox browser will open automatically, execute the test, and close upon completion.
